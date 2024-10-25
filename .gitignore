@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+# SSH keys
+id_rsa
+id_rsa.pub
+id_rsa_second_account
+id_rsa_second_account.pub
