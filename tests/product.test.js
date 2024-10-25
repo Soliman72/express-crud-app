@@ -21,7 +21,6 @@ beforeAll(async () => {
     .post("/auth/login")
     .send({ email: userData.email, password: userData.password });
   token = res.body.data.token;
-  console.log("Tooookkkkken ", token);
 });
 
 const productData = {
